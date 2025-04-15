@@ -34,8 +34,8 @@ salaries = data["salary"]
 plt.hist(salaries, log=True, edgecolor='black')
 plt.xscale('log')
 plt.title('Salary Distribution (Log Scale)')
-plt.xlabel('Salary (Log Scale)')
-plt.ylabel('Employees (Log Count)')
+plt.xlabel('Salary')
+plt.ylabel('Employees')
 plt.savefig('plot')
 
 print(f"First name assertion count: {name_count}")
